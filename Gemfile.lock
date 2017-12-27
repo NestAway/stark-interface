@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    stark-interface (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    grpc-tools (1.8.0)
+    rake (12.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.12)
+  grpc-tools
+  rake
+  stark-interface!
+
+BUNDLED WITH
+   1.16.0

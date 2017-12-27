@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package stark;
+
+service StarkService {
+  rpc hellogrpc (HelloRequest) returns (HelloResponse) {}
+}
+
+message HelloRequest {
+    string req_message = 1 ;
+}
+
+message HelloResponse {
+    string res_message = 1;
+}
